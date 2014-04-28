@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+ 	
+ 	<title>gurlworld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen">
+
+
+     
+</head>
+
+<body>
+
+<div class="section" id="welcome">
+	<div class="title">
+		<img src="images/biggerlogo.png">
+	</div>
+</div>
+
+<div class="section" id="wtf">
+	<div class="title">
+		<img src="images/wtf.png">
+		<a class="fancybox-media" href="http://vimeo.com/91245378"><img class="play" src="images/play4.png"></a>
+</div>
+
+<div class="section" id="omg">
+	<div class="title">
+		<img src="images/omg.png">
+		<img class="play" src="images/play4.png">
+</div>
+
+<div class="section" id="um">
+	<div class="title">
+		<img src="images/um.png">
+		<img class="play" src="images/play4.png">
+</div>
+
+<div class="section" id="duh">
+	<div class="title">
+		<img src="images/duh.png">
+		<img class="play" src="images/play4.png">
+</div>
+
+
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
+</script>
+
+</body>
+</html>
+
+
+
+
