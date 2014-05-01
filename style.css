@@ -1,6 +1,11 @@
 html,
 body {
 	height: 100%;
+
+}
+
+.fancybox-lock,
+.fancybox-lock body {
 	overflow: visible !important;
 }
 
